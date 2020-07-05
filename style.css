@@ -1,0 +1,52 @@
+/* Comments */
+
+.team-member-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header {
+    padding: 50px 0;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.tab-input {
+    display: none;
+}
+
+.tm-image-small {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tm-image-small:hover {
+    opacity: 0.9;
+}
+
+.tab-input:checked + .tab-tm-label .tm-image-small {
+    width: 60px;
+}
+
+.tab-input:checked + .tab-tm-label {
+    margin-top: 0;
+}
+
+.tab-tm-label {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px; margin-right: 10px;
+    margin-top: 10px;
+}
+
+.our-team {
+    text-align: center;
+}
+
+
+.wrap {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
