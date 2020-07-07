@@ -5,6 +5,7 @@ body {
     font-family: "Roboto", "Open Sans";
     font-weight: 300;
     margin: 0;
+    background: white;
 }
 
 img {
@@ -136,7 +137,28 @@ h3 {
     margin-right: auto;
 }
 
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+}
 
+.clearfix:after {
+    clear: both;
+}
+
+.block .wrap > h3 {
+    text-align: center;
+}
+
+
+/* -------- #project -------- */
+
+.team-project {
+    background: #eee;
+    padding-top: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
 
 
 /* -------- #fonts -------- */
