@@ -72,7 +72,10 @@ h3 {
 }
 
 .tm-image-medium {
-    max-width: 300px;
+    max-width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px;
 }
 
 .tab-input:checked + .tab-tm-label .tm-image-small {
@@ -83,12 +86,35 @@ h3 {
     margin-top: 0;
 }
 
-.tab-input:checked + .tab-tm-label .tab-content-container {
+.tab-content-container {
+    border-top: 4px solid #333;
+    display: none;
+    padding-top: 40px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+#tab-tm1:checked ~ .content-tm1 {
     display: block;
 }
 
-.tab-content-container {
-    display: none;
+#tab-tm2:checked ~ .content-tm2 {
+    display: block;
+}
+
+#tab-tm3:checked ~ .content-tm3 {
+    display: block;
+}
+
+#tab-tm4:checked ~ .content-tm4 {
+    display: block;
+}
+
+#tab-tm5:checked ~ .content-tm5 {
+    display: block;
 }
 
 .tab-tm-label {
@@ -100,6 +126,7 @@ h3 {
 
 .our-team {
     text-align: center;
+    margin-top: 40px;
 }
 
 
