@@ -24,10 +24,24 @@ strong {
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+p {
+    font-size: 1.6rem;
+}
+
+h1, h2, h3 {
     margin-bottom: 10px;
     font-weight: 400;
     margin-top: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.8rem;
 }
 
 
@@ -57,12 +71,24 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.9;
 }
 
+.tm-image-medium {
+    max-width: 300px;
+}
+
 .tab-input:checked + .tab-tm-label .tm-image-small {
     width: 60px;
 }
 
 .tab-input:checked + .tab-tm-label {
     margin-top: 0;
+}
+
+.tab-input:checked + .tab-tm-label .tab-content-container {
+    display: block;
+}
+
+.tab-content-container {
+    display: none;
 }
 
 .tab-tm-label {
