@@ -2,10 +2,12 @@
 
 body {
     font-size: 10px;
-    font-family: "Roboto", "Open Sans";
+    font-family: "Open Sans";
     font-weight: 300;
     margin: 0;
     background: white;
+    font-size: 1.4rem;
+    line-height: 1.5;
 }
 
 img {
@@ -26,7 +28,7 @@ strong {
 }
 
 p {
-    font-size: 1.6rem;
+    margin-top: 0;
 }
 
 h1, h2, h3 {
@@ -88,17 +90,38 @@ h3 {
 }
 
 .tab-content-container {
-    border-top: 4px solid #333;
-    display: none;
+    /* border-top: 4px solid #333; */
+    /* display: none; */
     padding-top: 40px;
-    margin-top: 20px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    /* max-width: 1280px; */
+    padding: 50px 0;
 }
 
-#tab-tm1:checked ~ .content-tm1 {
+.content-tm1 {
+    
+}
+
+.content-tm2 {
+    background: #eee;
+}
+
+.content-tm3 {
+    
+}
+
+.content-tm4 {
+    background: #eee;
+}
+
+.content-tm5 {
+    
+}
+
+
+/* #tab-tm1:checked ~ .content-tm1 {
     display: block;
 }
 
@@ -116,7 +139,7 @@ h3 {
 
 #tab-tm5:checked ~ .content-tm5 {
     display: block;
-}
+} */
 
 .tab-tm-label {
     display: inline-block;
@@ -146,18 +169,26 @@ h3 {
     clear: both;
 }
 
-.block .wrap > h3 {
+.block .wrap > h2 {
     text-align: center;
 }
 
 
-/* -------- #project -------- */
 
-.team-project {
-    background: #eee;
+/* -------- #profile -------- */
+
+.team-profile {
+    background: #111;
     padding-top: 40px;
     margin-top: 40px;
     padding-bottom: 40px;
+    color: white;
+}
+
+.tools {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #eee;
 }
 
 
